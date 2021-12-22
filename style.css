@@ -1,0 +1,36 @@
+#header {
+    position: fixed;
+    display: flex;
+}
+
+#header-img {
+    width: 10vw;
+    height: 10vw;
+}
+
+#nav-bar {
+    align-self: flex-end;
+    padding-left: 60vw;
+}
+
+.nav-link{
+    background-color: rgb(212, 247, 247);
+    height: 30px;
+    font-weight: bold;
+    border: transparent solid 2px;
+    margin: 5px;
+}
+
+.nav-link:hover{
+    animation: nav-btn 500ms linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-btn{
+    100% {
+        background-color: rgb(166, 230, 247);
+        height: 30px;
+        font-weight: bold;
+        border: rgb(0, 0, 0) solid 2px;
+    }
+}
