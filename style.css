@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Montserrat:wght@100&family=Share+Tech+Mono&display=swap');
+
 @media(min-width: 100px) {
     #header-img {
         width: 10vw;
         height: 10vw;
     }
+}
+
+body {
+    background: linear-gradient(35deg, rgb(188, 188, 255), rgb(235, 195, 195));
 }
 
 #header {
@@ -13,6 +19,8 @@
     width: 100vw;
     max-height: 100px;
     margin-top: -10px;
+    margin-left: -10px;
+    box-shadow: rgb(122, 122, 122) 10px 10px 10px;
 }
 
 #header-img {
@@ -34,6 +42,8 @@
     font-weight: bold;
     border: transparent solid 2px;
     margin: 5px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: lighter;
 }
 
 .nav-btn:hover, #submit:hover {
@@ -61,12 +71,23 @@
     max-height: calc(70vh/1.5);
 }
 
+#email {
+    height: 30px;
+    font-weight: bolder;
+    background-color: rgb(213, 253, 250);
+    font-family: 'Montserrat', sans-serif;
+}
+
 #form {
     position: relative;
     top: 15vh;
+    font-weight: 900;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #nav-elmnt {
+    font-family: 'Fira Mono', monospace;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -78,6 +99,7 @@
     background-color: rgb(176, 216, 191);
     border: rgb(132, 132, 224) solid 2px;
     text-align: center;
+    box-shadow: rgb(122, 122, 122) 10px 10px 10px;
 }
 
 #price {
@@ -86,6 +108,7 @@
     background-color: rgb(176, 216, 191);
     border: rgb(132, 132, 224) solid 2px;
     text-align: center;
+    box-shadow: rgb(122, 122, 122) 10px 10px 10px;
 }
 
 #htw {
@@ -94,6 +117,7 @@
     background-color: rgb(176, 216, 191);
     border: rgb(132, 132, 224) solid 2px;
     text-align: center;
+    box-shadow: rgb(122, 122, 122) 10px 10px 10px;
 }
 
 @keyframes nav-btn{
@@ -102,5 +126,7 @@
         height: 30px;
         font-weight: bold;
         border: rgb(0, 0, 0) solid 2px;
+        font-weight: lighter;
+        box-shadow: rgb(122, 122, 122) 10px 10px 10px;
     }
 }
